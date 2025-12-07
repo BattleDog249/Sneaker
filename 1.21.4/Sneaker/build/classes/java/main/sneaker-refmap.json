@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/shlomo1412/sneaker/mixin/client/ClientPlayerEntityMixin": {
+      "tick": "Lnet/minecraft/class_746;method_5773()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/shlomo1412/sneaker/mixin/client/ClientPlayerEntityMixin": {
+        "tick": "Lnet/minecraft/class_746;method_5773()V"
+      }
+    }
+  }
+}
