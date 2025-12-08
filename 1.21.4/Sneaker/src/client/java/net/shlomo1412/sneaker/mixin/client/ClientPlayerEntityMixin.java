@@ -53,7 +53,7 @@ public abstract class ClientPlayerEntityMixin {
         
         // Player hitbox is 0.6 wide, so 0.3 from center to edge
         // Use 0.3001 for pixel-perfect timing at the very edge
-        double halfWidth = 0.3001;
+        double halfWidth = 0.0001;
         
         // Calculate the 4 corners of the player's hitbox
         double[][] cornerPoints = {
