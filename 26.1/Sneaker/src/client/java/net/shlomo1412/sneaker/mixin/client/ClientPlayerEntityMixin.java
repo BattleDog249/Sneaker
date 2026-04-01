@@ -1,6 +1,5 @@
 package net.shlomo1412.sneaker.mixin.client;
 
-import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.multiplayer.ClientLevel;
@@ -40,7 +39,7 @@ public abstract class ClientPlayerEntityMixin {
         // Check if player is on ground
         if (!player.onGround()) {
             if (sneaker$wasAutoSneaking) {
-                KeyMapping.set(client.options.keyShift.getDefaultKey(), false);
+                client.options.keyShift.setDown(false);
                 sneaker$wasAutoSneaking = false;
             }
             return;
