@@ -10,7 +10,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/sneaker",
-		"sources": "https://github.com/Shlomo1412/Sneaker/"
+		"sources": "https://github.com/Shlomo1412/Sneaker",
+		"issues": "https://github.com/Shlomo1412/Sneaker/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/sneaker/icon.png",
@@ -31,8 +32,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.18.5",
-		"minecraft": "~26.1",
+		"fabricloader": ">=0.19.1",
+		"minecraft": "~26.1.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
